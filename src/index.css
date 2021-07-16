@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+Header {
+  background-color: #282c34;
+  /* background-image: url('/images/react-logo.svg'); */
+  color: #fff;
+  padding: 2% 10%;
+}
+
+Header h1 {
+  font-size: 5rem;
+  width: 50%;
+}
+
+Header h2 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  width: 30%;
+}
+
+Button {
+  color: #282c34;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 2% 0;
+  border-radius: 5px;
+  border: none
+}
+
+ul {
+  display: flex !important;
+  list-style: none !important;
+  justify-content: space-between !important;
+}
+
+.List h3 {
+  margin:0;
+  color: #282c34;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.List li {
+  margin: 3%;
+}
+
+.List li:nth-child(1n) {
+  margin-left: 0;
+}
+
+.List p {
+  margin-top: 1%;
+  color: #999;
+  font-size: 1rem
+
+}
+
