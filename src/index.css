@@ -15,11 +15,12 @@ code {
 nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5%;
 }
 
 Header {
   background-color: #282c34;
-  /* background-image: url('/images/react-logo.svg'); */
+  background-image: url('http://localhost:3000/images/react-logo.svg');
   color: #fff;
   padding: 2% 10%;
 }
