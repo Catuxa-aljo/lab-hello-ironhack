@@ -11,7 +11,7 @@ class Header extends React.Component {
                     <Nav></Nav>
                     <h1>Say hello to ReactJS</h1>
                     <h2>You will learn how to use the most popular frontend library, and become a super Ninja developer.</h2>
-                    <Button></Button>
+                    <Button text='Awesome!'></Button>
                 </div> 
             </header> 
                       
