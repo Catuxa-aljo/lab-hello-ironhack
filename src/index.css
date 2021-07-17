@@ -50,7 +50,19 @@ ul {
   display: flex !important;
   list-style: none !important;
   justify-content: space-between !important;
-}
+} 
+
+/*
+-----------------------------------
+Esta es la clase que no me coge :(
+-----------------------------------
+
+.List ul {
+  display: flex !important;
+  list-style: none !important;
+  justify-content: space-between !important;
+}*/
+
 
 .List h3 {
   margin:0;
